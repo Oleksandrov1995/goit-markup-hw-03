@@ -14,11 +14,12 @@ html{box-sizing: border-box;}
 *::after {  box-sizing: inherit;}
 .section{padding-top: 94px;
 padding-bottom: 94px;}
+.container{width: 1200px;   margin: 0 auto;}
 .head_of_page{border-bottom: 1px #ECECEC ;
 }
-.container_1{display: inline-block;
-margin-left: 200px;}
-.site_nav{ display: flex;}
+.site_nav{display: inline-block;
+}
+.site_nav_list{ display: flex;}
 .logo{font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -40,9 +41,10 @@ margin-left: 200px;}
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;}
-.container_2{display: inline-block;
-margin-left: 354px;}
-.mail_tel{ display: flex;}
+.mail_tel{display: inline-flex;
+   margin-left: 354px;}
+.mail_tel_list{display: flex;
+}
 .mail{ margin-right: 40px;}
 .mail_tel_style{font-style: normal;
         font-weight: 500;
@@ -53,7 +55,10 @@ margin-left: 354px;}
         padding-top: 32px;
         padding-bottom: 32px;} 
 .order_a_service{
-     background: #2F303A;}
+     background: #2F303A;
+    padding-top: 200px;
+padding-bottom: 200px;
+}
 .title{
     font-style: normal;
     font-weight: 900;
@@ -61,35 +66,35 @@ margin-left: 354px;}
     line-height: 1.4;
     text-align: center;
     color: #FFFFFF;
-    padding: 200px 452px 0px 452px;}
-.button_index_text{ width: 216px;
+    margin-left: 252px;
+    width: 696px;
+   }
+.button_index_text{ width: 200px;
 padding: 10px 24px 10px 24px;
 margin-top: 30px;
-margin-left:620px ;
-margin-bottom: 200px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.8;
-    background-color: #2196F3;
-    align-items: center;
-    text-align: center;
-    border-radius: 4px;
-    border: none; 
-    color: #FFFFFF;}
+margin-left:500px ;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.8;
+background-color: #2196F3;
+align-items: center;
+text-align: center;
+border-radius: 4px;
+border: none; 
+color: #FFFFFF;}
 .our_advantages_title{
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     color: #212121;
-    text-align: center;
-}
+    text-align: center;}
    .our_advantages{display: flex;
 margin-top: 50px;}
 .advantage_1{
         width: 270px;
-        margin-left: 215px;}
+        margin-left: 15px;}
 .advantage_2{
     width: 270px;
     margin-left: 30px;
@@ -121,12 +126,13 @@ margin-top: 50px;}
             font-size: 36px;
             line-height: 1.2;
             color: #212121;
-            margin-left: 617px;
+            text-align: center;
         margin-bottom: 50px;}
-.what_we_do{display: flex;}
+.what_we_do{display: flex;
+    margin-left: 15px;}
 .what_we_do_1{  width: 370px;
                 height: 294px;
-                margin-left: 215px;
+               
                }
 .what_we_do_2{  width: 370px;
                 height: 294px;
@@ -142,12 +148,13 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.2;
 color: #212121;
-display: inline-block;
-margin-left: 688px;}
-.our_team{display: flex;
-margin-top: 50px;}
+text-align: center;}
 
-.our_team_1{margin-left: 215px;
+.our_team{display: flex;
+margin-top: 50px;
+margin-left: 15px;}
+
+.our_team_1{
     background-color: #FFFFFF;}
 .our_team_2{margin-left:30px;
     background-color: #FFFFFF;}
@@ -175,17 +182,14 @@ margin-top: 50px;}
         margin-bottom: 30px;
         text-align: center;
         }
-.footer{
-  
-    background: #2F303A;
-
+.footer{background: #2F303A;
 padding-top: 60px;}
     .logo_footer{
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
-    margin-left: 215px;}
+    margin-left: 15px;}
      
 .color_studio_white{color: #FFFFFF;}
 .address{font-style: normal;
@@ -194,7 +198,7 @@ padding-top: 60px;}
     line-height: 1.7;
     color: #FFFFFF;
    margin-top: 28px;
-   margin-left: 215px;}
+   margin-left: 15px;}
    .mail_footer{
     font-style: normal;
     font-weight: 400;
@@ -202,7 +206,7 @@ padding-top: 60px;}
     line-height: 1.2;
     color: rgba(255, 255, 255, 0.6);
     margin-top: 12px;
-    margin-left: 215px;
+    margin-left: 15px;
     display: inline-block; }
     .tel_footer{
         font-style: normal;
@@ -211,12 +215,12 @@ padding-top: 60px;}
         line-height: 1.2;
         color: rgba(255, 255, 255, 0.6);
         margin-top: 12px;
-        margin-left: 215px;
+        margin-left: 15px;
         margin-bottom: 60px;
         display: inline-block; }
     
    .portfolio-buttons{display:flex;
-  margin-left: 516px;}
+  margin-left: 316px;}
     .portfolio_button_text{
         font-family: 'Roboto';
         font-style: normal ;
@@ -263,7 +267,7 @@ padding-top: 60px;}
       }
     .portfolio_list_1{
         margin-top: 56px;
-        margin-left: 215px;
+        margin-left: 15px;
         border: 1px solid #EEEEEE;
         background-color: #FFFFFF;     
        }
@@ -277,7 +281,7 @@ padding-top: 60px;}
         border: 1px solid #EEEEEE;
         background-color: #FFFFFF;   }
     .portfolio_list_4{  margin-top: 30px;
-        margin-left: 215px;
+        margin-left: 15px;
         border: 1px solid #EEEEEE;
         background-color: #FFFFFF;   }
     .portfolio_list_5{  margin-top: 30px;
@@ -289,7 +293,7 @@ padding-top: 60px;}
         border: 1px solid #EEEEEE;
         background-color: #FFFFFF;   }
     .portfolio_list_7{  margin-top: 30px;
-        margin-left: 215px;
+        margin-left: 15px;
         border: 1px solid #EEEEEE;
         background-color: #FFFFFF;   }
     .portfolio_list_8{  margin-top: 30px;
