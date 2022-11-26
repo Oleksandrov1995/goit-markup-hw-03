@@ -29,8 +29,7 @@ padding-bottom: 94px;}
       clip-path: inset(50%);
       margin: -1px;
   }
-.head_of_page{border-bottom: 1px #ECECEC ;
-}
+.head_of_page{ border: 1px #757575 ; }
 .site_nav{display: inline-block;
 }
 .site_nav_list{ display: flex;}
@@ -222,7 +221,7 @@ padding-top: 60px;}
         display: inline-block; }
     
    .portfolio-buttons{display:flex;
-  margin-left: 300px;}
+ justify-content: center;}
     .portfolio_button_text{
         font-family: 'Roboto';
         font-style: normal ;
@@ -248,7 +247,8 @@ padding-top: 60px;}
 
  .portfolio-list{
     display: flex;
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+    margin-top: 56px;}
     
     .porfolio_list_title{
         font-family: 'Roboto';
@@ -270,40 +270,55 @@ padding-top: 60px;}
     margin-bottom: 20px;
     text-indent:24px ; 
       }
-    .portfolio_list_1{
-        margin-top: 56px;
+    .portfolio_list_1{        
         border-bottom: 1px solid #EEEEEE;
+        border-left:  1px solid #EEEEEE;
+        border-right:  1px solid #EEEEEE;
         background-color: #FFFFFF;     
        }
        
-    .portfolio_list_2{  margin-top: 56px;
-        margin-left: 30px;
+    .portfolio_list_2{margin-left: 30px;
         border-bottom: 1px solid #EEEEEE;
+        border-left:  1px solid #EEEEEE;
+        border-right:  1px solid #EEEEEE;
         background-color: #FFFFFF;   }
-    .portfolio_list_3{  margin-top: 56px;
-        margin-left: 30px;
+    .portfolio_list_3{        margin-left: 30px;
         border-bottom: 1px solid #EEEEEE;
+        border-left:  1px solid #EEEEEE;
+        border-right:  1px solid #EEEEEE;
         background-color: #FFFFFF;   }
     .portfolio_list_4{  margin-top: 30px;
         border-bottom: 1px solid #EEEEEE;
+        border-left:  1px solid #EEEEEE;
+        border-right:  1px solid #EEEEEE;
         background-color: #FFFFFF;   }
     .portfolio_list_5{  margin-top: 30px;
         margin-left: 30px;
         border-bottom: 1px solid #EEEEEE;
+        border-left:  1px solid #EEEEEE;
+        border-right:  1px solid #EEEEEE;
         background-color: #FFFFFF;   }
     .portfolio_list_6{  margin-top: 30px;
         margin-left: 30px;
         border-bottom: 1px solid #EEEEEE;
+        border-left:  1px solid #EEEEEE;
+        border-right:  1px solid #EEEEEE;
         background-color: #FFFFFF;   }
     .portfolio_list_7{  margin-top: 30px;
         border-bottom: 1px solid #EEEEEE;
+        border-left:  1px solid #EEEEEE;
+        border-right:  1px solid #EEEEEE;
         background-color: #FFFFFF;   }
     .portfolio_list_8{  margin-top: 30px;
         margin-left: 30px;
         border-bottom: 1px solid #EEEEEE;
+        border-left:  1px solid #EEEEEE;
+        border-right:  1px solid #EEEEEE;
         background-color: #FFFFFF;   }
     .portfolio_list_9{  margin-top: 30px;
         margin-left: 30px;
         border-bottom: 1px solid #EEEEEE;
+        border-left:  1px solid #EEEEEE;
+        border-right:  1px solid #EEEEEE;
         background-color: #FFFFFF; }
     
