@@ -1,8 +1,8 @@
 
 body{background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
-padding-left: 15px;
-padding-right: 15px;}
+    padding-left: 15px;
+    padding-right: 15px;}
 a{text-decoration: none;}
 a:hover{color:#2196F3;}
 a:focus{color:#2196F3;}
@@ -29,19 +29,19 @@ padding-bottom: 94px;}
       clip-path: inset(50%);
       margin: -1px;
   }
-.head_of_page{ border: 1px #757575 ; }
-.site_nav{display: inline-block;
-}
+.head_of_page{ border-bottom: 1px #757575}
+.site_nav{display: inline-block;}
 .site_nav_list{ display: flex;}
-.logo{font-family: 'Raleway', sans-serif;
+.logo_1{ display: inline-block;
+    padding-top:24px ;
+    padding-bottom: 25px;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    border: none;
-    margin-right:  93px;}
-.logo_1{ display: block;
-    padding-top:24px ;
-    padding-bottom: 25px;}
+   
+    margin-right:  93px;
+}
    .color_web{color: #2196F3;}
 .color_studio_black{color: #000000;}
 .index{ margin-right:50px;}
